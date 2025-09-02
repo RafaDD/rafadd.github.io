@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jianrong Ding</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .list-item-with-logo {
+            display: flex;
+            align-items: center; /* This aligns the logo and the text block vertically */
+            margin-bottom: 12px;
+        }
+        .logo {
+            width: 80px;
+            height: 65px;
+            margin-right: 15px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+        .item-content {
+            flex: 1;
+        }
+         /* Remove default list styling */
+        .no-bullets {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #self-photo {
+            width: 200px;
+            height: 150px;
+            border-radius: 0%;
+            object-fit: contain;
+            margin-left: 20px;
+        }
+        .info-container {
+             display: flex;
+             align-items: flex-start;
+        }
+        .info-text {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="main-table">
+        <tr>
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td class="td-with-padding">
+                            <div class="info-container">
+                                <div class="info-text">
+                                    <p class="p-center" id="name">
+                                        <name>Jianrong Ding</name>
+                                    </p>
+                                    <p class="p-center" id="email">
+                                        rafaelding@link.cuhk.edu.hk
+                                    </p>
+        
+                                    <p class="p-center smallerFont">
+                                        <a href="mailto:rafaelding@link.cuhk.edu.hk">Email</a>
+                                        &nbsp;|&nbsp;
+                                        <a href="https://github.com/RafaDD">GitHub</a>
+                                        &nbsp;|&nbsp;
+                                        <a href="https://scholar.google.com/citations?user=O-xoSwUAAAAJ&hl=en">Google Scholar</a>
+                                    </p>
+                                </div>
+                                <img src="imgs/self.jpg" id="self-photo" alt="Jianrong Ding's photo">
+                            </div>
+                            <br>
+                            <p>
+                                I'm a Ph.D. student at The Chinese University of Hong Kong advised by <a href="https://cure-lab.github.io/">Prof. Qiang Xu</a>.
+                            </p>
+                            <p>
+                                Before that, I obtained my bachelor's degree in artificial intelligence from Shanghai Jiao Tong University in 2025. I was advisd by <a href="https://jhc.sjtu.edu.cn/~gjzheng/index.html">Prof. Guanjie Zheng</a> during my undergraduate study.
+
+                                From June 2024 to September 2024, I worked as a research assistant at the laboratory of <a href="https://xyzhang.ucsd.edu/">Prof. Xinyu Zhang</a> from University of California, San Diego.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <table class="sub-table">
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Education</heading>
+                            <ul class="no-bullets">
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/cuhk.png" alt="CUHK Logo" class="logo">
+                                    <div class="item-content">
+                                        <span class="emphasis">The Chinese University of Hong Kong</span>
+                                        <span class="align-right"><i>Sept. 2025 - present</i></span>
+                                        <p>
+                                            Ph.D. in Computer Science and Engineering
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/sjtu.png" alt="SJTU Logo" class="logo">
+                                    <div class="item-content">
+                                        <span class="emphasis">Shanghai Jiao Tong University</span>
+                                        <span class="align-right"><i>Sept. 2021 - June. 2025</i></span>
+                                        <p>
+                                            B.E. in Artificial Intelligence (Honor Class)
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Publications</heading>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Kan Wu, <u><b>Jianrong Ding</b></u>, Jingli Lin, Guanjie Zheng, Yi Sun, Jie Fang, Tu Xu, Yongdong Zhu, Baojing Gu, "Big-data Empowered Traffic Signal Control Could Reduce Urban Carbon Emission", <i>Nature Communications</i>, <b>16</b>(1):2023, 2025
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <u><b>Jianrong Ding</b></u>*, Zhanyu Liu*, Guanjie Zheng, Haiming Jin, Linghe Kong, "CondTSF: One-line Plugin of Dataset Condensation for Time Series Forecasting", <i>Conference on Neural Information Processing Systems</i> (<b>NeurIPS</b>), 2024
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Zhanyu Liu, <u><b>Jianrong Ding</b></u>, Guanjie Zheng, "Frequency Enhanced Pre-training for Cross-city Few-shot Traffic Forecasting", <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (<b>ECML PKDD</b>), 2024
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       Ziyang Su, Zhanyu Liu, <u><b>Jianrong Ding</b></u>, Guanjie Zheng, "POI-based Traffic Generation via Supervised Contrastive Learning on Reconstructed Graph", <i>International Conference on Database Systems for Advanced Applications</i> (<b>DASFAA</b>), 2024
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Rong Ding, Haiming Jin, <u><b>Jianrong Ding</b></u>, Xiaocheng Wang, Guiyun Fan, Fengyuan Zhu, Xiaohua Tian, Linghe Kong, "Push the Limit of Single-Chip mmWave Radar-Based Egomotion Estimation with Moving Objects in FoV", <i>ACM Conference on Embedded Networked Sensor Systems</i> (<b>SenSys</b>), 2023
+                                    </p>
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td class="td-with-padding">
+                            <heading>Experience</heading>
+                            <ol class="no-bullets">
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/ljinvest.png" alt="Shanghai AI Lab Logo" class="logo">
+                                    <div class="item-content">
+                                        <span class="emphasis">Lingjun Investment</span>
+                                        <span class="align-right"><i>June. 2025 - Sept. 2025</i></span>
+                                        <p>
+                                           Quantitative Research Intern
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/shailab.png" alt="Shanghai AI Lab Logo" class="logo">
+                                    <div class="item-content">
+                                        <span class="emphasis">Shanghai Artificial Intelligence Laboratory</span>
+                                         <span class="align-right"><i>Nov. 2024 - April. 2025</i></span>
+                                        <p>
+                                           AI Algorithm Research Intern
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/ucsd.png" alt="UCSD Logo" class="logo">
+                                    <div class="item-content">
+                                        <span class="emphasis">University of California San Diego</span>
+                                         <span class="align-right"><i>June. 2024 - Sept. 2024</i></span>
+                                        <p>
+                                           Research Assistant advised by Prof. Xinyu Zhang
+                                        </p>
+                                    </div>
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Honors & Scholarships</heading>
+                            <ol>
+                                <li class="li-margin">
+                                    Outstanding Graduate of Shanghai Province
+                                    <span class="align-right"><i>2025</i></span>
+                                </li>
+                                <li class="li-margin">
+                                    Nomination Award for Rongchang Technology Innovation Scholarship
+                                    <span class="align-right"><i>2024</i></span>
+                                </li>
+                                <li class="li-margin">
+                                    Zhiyuan A-Class Overseas Research Scholarship
+                                    <span class="align-right"><i>2024</i></span>
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
