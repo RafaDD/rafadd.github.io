@@ -7,42 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jianrong Ding</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-        .list-item-with-logo {
-            display: flex;
-            align-items: center; /* This aligns the logo and the text block vertically */
-            margin-bottom: 12px;
-        }
-        .logo {
-            width: 80px;
-            height: 65px;
-            margin-right: 15px;
-            object-fit: contain;
-            flex-shrink: 0;
-        }
-        .item-content {
-            flex: 1;
-        }
-         /* Remove default list styling */
-        .no-bullets {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        #self-photo {
-            width: 200px;
-            height: 150px;
-            border-radius: 0%;
-            object-fit: contain;
-            margin-left: 20px;
-        }
-        .info-container {
-             display: flex;
-             align-items: flex-start;
-        }
-        .info-text {
-            flex-grow: 1;
-        }
-    </style>
 </head>
 
 <body>
@@ -113,32 +77,41 @@
                     <tr>
                         <td class="td-with-padding">
                             <heading>Publications</heading>
-                            <ol>
-                                <li>
-                                    <p>
-                                        Kan Wu, <u><b>Jianrong Ding</b></u>, Jingli Lin, Guanjie Zheng, Yi Sun, Jie Fang, Tu Xu, Yongdong Zhu, Baojing Gu, "Big-data Empowered Traffic Signal Control Could Reduce Urban Carbon Emission", <i>Nature Communications</i>, <b>16</b>(1), 2023, 2025
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        <u><b>Jianrong Ding</b></u>*, Zhanyu Liu*, Guanjie Zheng, Haiming Jin, Linghe Kong, "CondTSF: One-line Plugin of Dataset Condensation for Time Series Forecasting", <i>Conference on Neural Information Processing Systems</i> (<b>NeurIPS</b>), 2024
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Zhanyu Liu, <u><b>Jianrong Ding</b></u>, Guanjie Zheng, "Frequency Enhanced Pre-training for Cross-city Few-shot Traffic Forecasting", <i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> (<b>ECML PKDD</b>), 2024
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                       Ziyang Su, Zhanyu Liu, <u><b>Jianrong Ding</b></u>, Guanjie Zheng, "POI-based Traffic Generation via Supervised Contrastive Learning on Reconstructed Graph", <i>International Conference on Database Systems for Advanced Applications</i> (<b>DASFAA</b>), 2024
-                                    </p>
-                                </li>
-                                <li>
-                                    <p>
-                                        Rong Ding, Haiming Jin, <u><b>Jianrong Ding</b></u>, Xiaocheng Wang, Guiyun Fan, Fengyuan Zhu, Xiaohua Tian, Linghe Kong, "Push the Limit of Single-Chip mmWave Radar-Based Egomotion Estimation with Moving Objects in FoV", <i>ACM Conference on Embedded Networked Sensor Systems</i> (<b>SenSys</b>), 2023
-                                    </p>
-                                </li>
+                            <ol class="no-bullets">
+                                <div class="publication">
+                                <p class="pub-title">Big-data Empowered Traffic Signal Control Could Reduce Urban Carbon Emission</p>
+                                <p class="pub-authors">Kan Wu, <span class="me">Jianrong Ding</span>, Jingli Lin, Guanjie Zheng, Yi Sun, Jie Fang, Tu Xu, Yongdong Zhu, Baojing Gu</p>
+                                <p class="pub-venue"><i>Nature Communications</i>, <b>16</b>(1), 2013, 2025</p>
+                                <p class="pub-links"><a href="https://www.nature.com/articles/s41467-025-56701-4">[paper]</a>  <a href="https://github.com/RafaDD/BigData-TSC">[code]</a></p>
+                                </div>
+
+                                <div class="publication">
+                                <p class="pub-title">CondTSF: One-line Plugin of Dataset Condensation for Time Series Forecasting</p>
+                                <p class="pub-authors"><span class="me">Jianrong Ding</span>*, Zhanyu Liu*, Guanjie Zheng, Haiming Jin, Linghe Kong</p>
+                                <p class="pub-venue"><i>Conference on Neural Information Processing Systems</i> <b>(NeurIPS)</b>, 2024</p>
+                                <p class="pub-links"><a href="https://arxiv.org/abs/2406.02131">[paper]</a>  <a href="https://github.com/RafaDD/CondTSF">[code]</a></p>
+                                </div>
+
+                                <div class="publication">
+                                <p class="pub-title">Frequency Enhanced Pre-training for Cross-city Few-shot Traffic Forecasting</p>
+                                <p class="pub-authors">Zhanyu Liu, <span class="me">Jianrong Ding</span>, Guanjie Zheng</p>
+                                <p class="pub-venue"><i>European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases</i> <b>(ECML PKDD)</b>, 2024</p>
+                                <p class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-3-031-70344-7_3">[paper]</a>  <a href="https://github.com/zhyliu00/FEPCross">[code]</a></p>
+                                </div>
+
+                                <div class="publication">
+                                <p class="pub-title">POI-Based Traffic Generation via Supervised Contrastive Learning on Reconstructed Graph</p>
+                                <p class="pub-authors">Ziyang Su, Zhanyu Liu, <span class="me">Jianrong Ding</span>, Guanjie Zheng</p>
+                                <p class="pub-venue"><i>International Conference on Database Systems for Advanced Applications</i> <b>(DASFAA)</b>, 2024</p>
+                                <p class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-981-97-5552-3_15">[paper]</a></p>
+                                </div>
+
+                                <div class="publication">
+                                <p class="pub-title">Push the Limit of Single-Chip mmWave Radar-Based Egomotion Estimation with Moving Objects in FoV</p>
+                                <p class="pub-authors">Rong Ding, Haiming Jin, <span class="me">Jianrong Ding</span>, Xiaocheng Wang, Guiyun Fan, Fengyuan Zhu, Xiaohua Tian, Linghe Kong</p>
+                                <p class="pub-venue"><i>ACM Conference on Embedded Networked Sensor Systems</i> <b>(SenSys)</b>, 2023</p>
+                                <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3625687.3625795">[paper]</a></p>
+                                </div>
                             </ol>
                         </td>
                     </tr>
