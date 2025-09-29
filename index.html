@@ -80,6 +80,13 @@
                             <heading>Selected Publications</heading>
                             <ol class="no-bullets">
                                 <div class="publication">
+                                <p class="pub-title">Concept-SAE: Active Causal Probing of Visual Model Behavior</p>
+                                <p class="pub-authors"><span class="me">Jianrong Ding*</span>, Muxi Chen*, Chenchen Zhao, Qiang Xu</p>
+                                <p class="pub-venue"><i>Under Review</i>, 2025</p>
+                                <p class="pub-links"><a href="https://arxiv.org/abs/2509.22015">[paper]</a>  <a href="https://github.com/RafaDD/Concept-SAE">[code]</a></p>
+                                </div>
+
+                                <div class="publication">
                                 <p class="pub-title">Big-data Empowered Traffic Signal Control Could Reduce Urban Carbon Emission</p>
                                 <p class="pub-authors">Kan Wu, <span class="me">Jianrong Ding</span>, Jingli Lin, Guanjie Zheng, Yi Sun, Jie Fang, Tu Xu, Yongdong Zhu, Baojing Gu</p>
                                 <p class="pub-venue"><i>Nature Communications</i>, <b>16</b>(1), 2013, 2025</p>
@@ -100,12 +107,6 @@
                                 <p class="pub-links"><a href="https://link.springer.com/chapter/10.1007/978-3-031-70344-7_3">[paper]</a>  <a href="https://github.com/zhyliu00/FEPCross">[code]</a></p>
                                 </div>
 
-                                <div class="publication">
-                                <p class="pub-title">Push the Limit of Single-Chip mmWave Radar-Based Egomotion Estimation with Moving Objects in FoV</p>
-                                <p class="pub-authors">Rong Ding, Haiming Jin, <span class="me">Jianrong Ding</span>, Xiaocheng Wang, Guiyun Fan, Fengyuan Zhu, Xiaohua Tian, Linghe Kong</p>
-                                <p class="pub-venue"><i>ACM Conference on Embedded Networked Sensor Systems</i> <b>(SenSys)</b>, 2023</p>
-                                <p class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3625687.3625795">[paper]</a></p>
-                                </div>
                             </ol>
                         </td>
                     </tr>
@@ -183,5 +184,14 @@
         </tr>
     </table>
 </body>
+
+<p class="p-center smallerFont" id="lastEdited"></p>
+
+<script>
+    const lastModified = new Date(document.lastModified);
+    const options = { year: 'numeric', month: 'long' };
+    document.getElementById("lastEdited").textContent =
+        "Last updated: " + lastModified.toLocaleDateString("en-US", options);
+</script>
 
 </html>
