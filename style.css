@@ -19,7 +19,7 @@ table {
 
 /* Inherit from table and set its width */
 #main-table {
-    width: 1300px;
+    width: 900px;
 }
 
 /* Inherit from table and set its width */
@@ -50,6 +50,10 @@ table {
 /* ---------Style for p-------------------- */
 .p-center {
     text-align: center;
+}
+
+.p-left {
+    text-align: left;
 }
 
 #email {
